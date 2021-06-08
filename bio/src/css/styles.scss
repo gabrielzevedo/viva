@@ -13,3 +13,10 @@ body {
   background-image: url(../img/bg.jpg);
   @apply tracking-tight bg-center bg-cover;
 }
+
+.icon {
+  height: 19vw;
+  width: 18vw;
+  max-width: 80px;
+  max-height: 80px;
+}
