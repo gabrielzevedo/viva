@@ -29,6 +29,7 @@
     "concurrently": "^6.0.2",
     "cross-env": "^7.0.3",
     "cssnano": "^5.0.2",
+    "glob-parent": "ˆ5.1.2",
     "live-server": "^1.2.1",
     "postcss": "^8.3.0",
     "postcss-cli": "^8.3.1",
