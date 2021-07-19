@@ -4,9 +4,12 @@ on:
   pull_request:
     branches: [ next-v2 ]
 
+defaults:
+    run:
+      working-directory: ./bio
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     strategy:
