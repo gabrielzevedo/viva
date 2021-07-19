@@ -1,6 +1,9 @@
 name: Build Assets
 
 on:
+  push:
+      branches:
+        - next-v2
   pull_request:
     branches:
       - next-v2
