@@ -36,4 +36,7 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: copy assets
-          path: assets
+          path: |
+            assets
+            ./bio/assets
+            /bio/assets
