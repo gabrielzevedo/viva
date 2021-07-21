@@ -41,7 +41,7 @@ jobs:
         working-directory: ./bio
       
       - name: Copy
-      - uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v2
         with:
           working-directory: ./bio
           name: assets
