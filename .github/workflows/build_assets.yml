@@ -37,5 +37,9 @@ jobs:
           working-directory: ./bio
 
       - name: Build
-        run: npm run build
-        working-directory: ./bio
+      - run: npm run build
+      - uses: actions/upload-artifact@v2
+        with:
+          working-directory: ./bio
+          name: assets
+          path: assets
