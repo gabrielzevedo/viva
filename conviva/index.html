@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIVA A SUA JUVENTUDE</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-C0BTPDSD2K"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-C0BTPDSD2K');
+  </script>
+</head>
+<body>
+  <div class="container w-full max-w-md mx-auto p-5">
+    <div class="header mt-6 mb-12">
+      <img src="assets/img/logo.png" alt="Viva uma nova frequência" class="mx-auto w-48">
+    </div>
+    <p class="font-semibold text-white mb-5 text-center text-xl">Encontre o Conviva perfeito para você!</p>
+    <div class="flex flex-col items-center justify-center font-semibold text-white text-xl">
+      <div class="question question-1">
+        <p>Você é solteiro(a)?</p>
+        <div class="flex mt-2 gap-5 text-3xl">
+          <label>
+            ✅
+            <input type="radio" name="solteiro" value="4" class="hidden select">
+          </label>
+          <label>
+            ❌
+            <input type="radio" name="solteiro" value="2" class="hidden select">
+          </label>
+        </div>
+      </div>
+      <div class="question question-2 hidden">
+        <p>Você é casado(a)?</p>
+        <div class="flex mt-2 gap-5 text-3xl">
+          <label>
+            ✅
+            <input type="radio" name="casado" value="conviva-casados" class="hidden select">
+          </label>
+          <label>
+            ❌
+            <input type="radio" name="casado" value="3" class="hidden select">
+          </label>
+        </div>
+      </div>
+      <div class="question question-3 hidden">
+        <p>Você namora ou é noivo(a)?</p>
+        <div class="flex mt-2 gap-5 text-3xl">
+          <label>
+            ✅
+            <input type="radio" name="namorado" value="4" class="hidden select">
+          </label>
+          <label>
+            ❌
+            <input type="radio" name="namorado" value="5" class="hidden select">
+          </label>
+        </div>
+      </div>
+      <div class="question question-4 hidden">
+        <p>Quantos anos você tem?</p>
+        <form>
+          <input type="text" name="idade" id="idade" class="bg-transparent border-0 border-b-2 boder-white outline-none text-center" inputmode="tel" pattern="[0-9]{2}" maxlength="2">
+          <button type="submit" class="bg-transparent border-0">✅</button>
+        </form>
+      </div>
+      <div class="conviva conviva-casados hidden">
+        <div class="rounded bg-white shadow-lg">
+          oioiio
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.6.4.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>

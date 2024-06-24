@@ -1,0 +1,26 @@
+*,
+*:before,
+*:after {
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  height: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-image: url(../img/bg.jpg);
+  @apply tracking-tight bg-center bg-cover antialiased;
+}
+
+.icon {
+  height: 19vw;
+  width: 18vw;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.question {
+  @apply flex items-center justify-center text-center flex-col gap-3;
+}
